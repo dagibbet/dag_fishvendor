@@ -80,7 +80,7 @@ AddEventHandler('dag_fishing:sellmenu', function(data)
 				header = "• Sell "..i.label.." ",
 				txt = "",
 				params = {
-					event = 'rsg_fishvendor:server:sellfish',
+					event = 'dag_fishvendor:server:sellfish',
 					args = i,
 					isServer = true,
 				}
